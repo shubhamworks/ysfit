@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:800|Open+Sans");
+body {
+  background: #EDEDED;
+}
+
+a {
+  cursor: pointer;
+}
+
+#container {
+  height: 600px;
+  width: 600px;
+  margin: 0% auto;
+  position: relative;
+  box-shadow: 4px 130px 90px rgba(55, 52, 73, 0.4);
+}
+
+#background {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 50%;
+  height: 100%;
+  background: #FF7A6C;
+  -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: -1;
+  transition: all .8s ease;
+}
+
+.snap{
+  background: #373449;
+  color: #FFDC7B;
+  padding: 10px  30px;
+  border-radius: 25px;
+}
+
+#countDown{
+  text-align: right;
+  color: #373449;
+  font-size: 60px;
+}
+
+#reps{
+  text-align: center;;
+  color: #373449;
+  font-size: 60px;
+}
+
+/* sections */
+.section {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 100%;
+  height: 80%;
+}
